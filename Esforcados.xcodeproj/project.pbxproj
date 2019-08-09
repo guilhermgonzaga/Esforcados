@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F6E531322FDE4AF00B01E9B /* Reforcados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reforcados.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6E531322FDE4AF00B01E9B /* Esforcados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Esforcados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6E531622FDE4AF00B01E9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F6E531822FDE4AF00B01E9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F6E531B22FDE4AF00B01E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		3F6E531422FDE4AF00B01E9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F6E531322FDE4AF00B01E9B /* Reforcados.app */,
+				3F6E531322FDE4AF00B01E9B /* Esforcados.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F6E531222FDE4AF00B01E9B /* Reforcados */ = {
+		3F6E531222FDE4AF00B01E9B /* Esforcados */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F6E532522FDE4AF00B01E9B /* Build configuration list for PBXNativeTarget "Reforcados" */;
+			buildConfigurationList = 3F6E532522FDE4AF00B01E9B /* Build configuration list for PBXNativeTarget "Esforcados" */;
 			buildPhases = (
 				3F6E530F22FDE4AF00B01E9B /* Sources */,
 				3F6E531022FDE4AF00B01E9B /* Frameworks */,
@@ -121,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = Reforcados;
+			name = Esforcados;
 			productName = Reforcados;
-			productReference = 3F6E531322FDE4AF00B01E9B /* Reforcados.app */;
+			productReference = 3F6E531322FDE4AF00B01E9B /* Esforcados.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +142,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3F6E530E22FDE4AF00B01E9B /* Build configuration list for PBXProject "Reforcados" */;
+			buildConfigurationList = 3F6E530E22FDE4AF00B01E9B /* Build configuration list for PBXProject "Esforcados" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -155,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F6E531222FDE4AF00B01E9B /* Reforcados */,
+				3F6E531222FDE4AF00B01E9B /* Esforcados */,
 			);
 		};
 /* End PBXProject section */
@@ -333,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F6E530E22FDE4AF00B01E9B /* Build configuration list for PBXProject "Reforcados" */ = {
+		3F6E530E22FDE4AF00B01E9B /* Build configuration list for PBXProject "Esforcados" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F6E532322FDE4AF00B01E9B /* Debug */,
@@ -342,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F6E532522FDE4AF00B01E9B /* Build configuration list for PBXNativeTarget "Reforcados" */ = {
+		3F6E532522FDE4AF00B01E9B /* Build configuration list for PBXNativeTarget "Esforcados" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F6E532622FDE4AF00B01E9B /* Debug */,

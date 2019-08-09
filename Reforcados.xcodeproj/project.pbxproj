@@ -12,6 +12,9 @@
 		3F6E531C22FDE4AF00B01E9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E531A22FDE4AF00B01E9B /* Main.storyboard */; };
 		3F6E531E22FDE4AF00B01E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E531D22FDE4AF00B01E9B /* Assets.xcassets */; };
 		3F6E532122FDE4AF00B01E9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E531F22FDE4AF00B01E9B /* LaunchScreen.storyboard */; };
+		3F6E532C22FDE57300B01E9B /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E532B22FDE57300B01E9B /* Challenge.swift */; };
+		3FBFC3EE22FDE88200CBDCEF /* ChallengeListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFC3ED22FDE88200CBDCEF /* ChallengeListTableViewController.swift */; };
+		3FBFC3F022FDE8BE00CBDCEF /* ChallengeItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFC3EF22FDE8BE00CBDCEF /* ChallengeItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		3F6E531D22FDE4AF00B01E9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F6E532022FDE4AF00B01E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F6E532222FDE4AF00B01E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6E532B22FDE57300B01E9B /* Challenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		3FBFC3ED22FDE88200CBDCEF /* ChallengeListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeListTableViewController.swift; sourceTree = "<group>"; };
+		3FBFC3EF22FDE8BE00CBDCEF /* ChallengeItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,41 @@
 		3F6E531522FDE4AF00B01E9B /* Reforcados */ = {
 			isa = PBXGroup;
 			children = (
+				3F6E532A22FDE54F00B01E9B /* Model */,
+				3F6E532922FDE54500B01E9B /* Controller */,
+				3F6E532822FDE53500B01E9B /* View */,
 				3F6E531622FDE4AF00B01E9B /* AppDelegate.swift */,
-				3F6E531822FDE4AF00B01E9B /* ViewController.swift */,
-				3F6E531A22FDE4AF00B01E9B /* Main.storyboard */,
 				3F6E531D22FDE4AF00B01E9B /* Assets.xcassets */,
 				3F6E531F22FDE4AF00B01E9B /* LaunchScreen.storyboard */,
 				3F6E532222FDE4AF00B01E9B /* Info.plist */,
 			);
 			path = Reforcados;
+			sourceTree = "<group>";
+		};
+		3F6E532822FDE53500B01E9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F6E531A22FDE4AF00B01E9B /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3F6E532922FDE54500B01E9B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F6E531822FDE4AF00B01E9B /* ViewController.swift */,
+				3FBFC3ED22FDE88200CBDCEF /* ChallengeListTableViewController.swift */,
+				3FBFC3EF22FDE8BE00CBDCEF /* ChallengeItemTableViewCell.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3F6E532A22FDE54F00B01E9B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F6E532B22FDE57300B01E9B /* Challenge.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +170,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F6E531922FDE4AF00B01E9B /* ViewController.swift in Sources */,
+				3F6E532C22FDE57300B01E9B /* Challenge.swift in Sources */,
 				3F6E531722FDE4AF00B01E9B /* AppDelegate.swift in Sources */,
+				3FBFC3EE22FDE88200CBDCEF /* ChallengeListTableViewController.swift in Sources */,
+				3FBFC3F022FDE8BE00CBDCEF /* ChallengeItemTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +337,7 @@
 				3F6E532722FDE4AF00B01E9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

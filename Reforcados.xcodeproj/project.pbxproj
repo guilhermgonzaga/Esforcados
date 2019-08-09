@@ -15,6 +15,9 @@
 		3F6E532C22FDE57300B01E9B /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E532B22FDE57300B01E9B /* Challenge.swift */; };
 		3FBFC3EE22FDE88200CBDCEF /* ChallengeListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFC3ED22FDE88200CBDCEF /* ChallengeListTableViewController.swift */; };
 		3FBFC3F022FDE8BE00CBDCEF /* ChallengeItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFC3EF22FDE8BE00CBDCEF /* ChallengeItemTableViewCell.swift */; };
+		3FBFC3F222FDEBBF00CBDCEF /* SolvingChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFC3F122FDEBBF00CBDCEF /* SolvingChallengeViewController.swift */; };
+		3FBFC3F622FDEF2500CBDCEF /* ChallengeDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFC3F522FDEF2500CBDCEF /* ChallengeDAO.swift */; };
+		3FBFC3F822FDF1E000CBDCEF /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFC3F722FDF1E000CBDCEF /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		3F6E532B22FDE57300B01E9B /* Challenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
 		3FBFC3ED22FDE88200CBDCEF /* ChallengeListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeListTableViewController.swift; sourceTree = "<group>"; };
 		3FBFC3EF22FDE8BE00CBDCEF /* ChallengeItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeItemTableViewCell.swift; sourceTree = "<group>"; };
+		3FBFC3F122FDEBBF00CBDCEF /* SolvingChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolvingChallengeViewController.swift; sourceTree = "<group>"; };
+		3FBFC3F522FDEF2500CBDCEF /* ChallengeDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeDAO.swift; sourceTree = "<group>"; };
+		3FBFC3F722FDF1E000CBDCEF /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 				3F6E531822FDE4AF00B01E9B /* ViewController.swift */,
 				3FBFC3ED22FDE88200CBDCEF /* ChallengeListTableViewController.swift */,
 				3FBFC3EF22FDE8BE00CBDCEF /* ChallengeItemTableViewCell.swift */,
+				3FBFC3F122FDEBBF00CBDCEF /* SolvingChallengeViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -93,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				3F6E532B22FDE57300B01E9B /* Challenge.swift */,
+				3FBFC3F522FDEF2500CBDCEF /* ChallengeDAO.swift */,
+				3FBFC3F722FDF1E000CBDCEF /* Question.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -170,6 +179,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F6E531922FDE4AF00B01E9B /* ViewController.swift in Sources */,
+				3FBFC3F822FDF1E000CBDCEF /* Question.swift in Sources */,
+				3FBFC3F622FDEF2500CBDCEF /* ChallengeDAO.swift in Sources */,
+				3FBFC3F222FDEBBF00CBDCEF /* SolvingChallengeViewController.swift in Sources */,
 				3F6E532C22FDE57300B01E9B /* Challenge.swift in Sources */,
 				3F6E531722FDE4AF00B01E9B /* AppDelegate.swift in Sources */,
 				3FBFC3EE22FDE88200CBDCEF /* ChallengeListTableViewController.swift in Sources */,

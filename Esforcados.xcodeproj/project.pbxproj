@@ -50,7 +50,7 @@
 		3F6E530A22FDE4AF00B01E9B = {
 			isa = PBXGroup;
 			children = (
-				3F6E531522FDE4AF00B01E9B /* Reforcados */,
+				3F6E531522FDE4AF00B01E9B /* Esforcados */,
 				3F6E531422FDE4AF00B01E9B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +63,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F6E531522FDE4AF00B01E9B /* Reforcados */ = {
+		3F6E531522FDE4AF00B01E9B /* Esforcados */ = {
 			isa = PBXGroup;
 			children = (
 				3F6E532A22FDE54F00B01E9B /* Model */,
@@ -74,6 +74,8 @@
 				3F6E531F22FDE4AF00B01E9B /* LaunchScreen.storyboard */,
 				3F6E532222FDE4AF00B01E9B /* Info.plist */,
 			);
+			indentWidth = 4;
+			name = Esforcados;
 			path = Reforcados;
 			sourceTree = "<group>";
 		};

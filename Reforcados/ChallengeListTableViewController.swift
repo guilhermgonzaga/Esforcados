@@ -10,7 +10,7 @@ import UIKit
 
 class ChallengeListTableViewController: UITableViewController {
 
-    var challengeList: [Challenge]?
+    var challengeList = [Challenge]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,7 +41,7 @@ class ChallengeListTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return challengeList!.count
+        return challengeList.count
     }
 
     

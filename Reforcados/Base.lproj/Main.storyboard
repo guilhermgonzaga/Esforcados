@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1815" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="PWD-XR-D6v">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="PWD-XR-D6v">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -115,7 +115,7 @@
                                                             <rect key="frame" x="0.0" y="52" width="169.5" height="21.5"/>
                                                             <state key="normal" title="Button"/>
                                                             <connections>
-                                                                <segue destination="E9k-Oj-qt9" kind="show" id="uZg-LC-2P2"/>
+                                                                <segue destination="E9k-Oj-qt9" kind="show" identifier="solveChallengeSegue" id="uZg-LC-2P2"/>
                                                             </connections>
                                                         </button>
                                                     </subviews>
@@ -131,10 +131,9 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="challengeLabel" destination="pXe-XO-kqi" id="gvv-l8-C5y"/>
+                                    <outlet property="challengeNameLabel" destination="pXe-XO-kqi" id="CTl-D6-Zsm"/>
                                     <outlet property="descriptionLabel" destination="iqO-sS-KYR" id="bwH-h6-8Y6"/>
                                     <outlet property="dueDateLabel" destination="a2C-O6-gDs" id="dlD-mc-zVv"/>
-                                    <outlet property="nomeTurmaLabel" destination="pXe-XO-kqi" id="NgJ-Nn-xdP"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -161,46 +160,49 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="R29-Z2-oDc">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="R29-Z2-oDc">
                                 <rect key="frame" x="36" y="104" width="303" height="494"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="X8d-Dy-e0c">
-                                        <rect key="frame" x="31.5" y="0.0" width="240" height="247"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="303" height="232"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <fontDescription key="fontDescription" name="DevanagariSangamMN-Bold" family="Devanagari Sangam MN" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IxE-xp-d1c">
-                                        <rect key="frame" x="130.5" y="247" width="42" height="247"/>
+                                        <rect key="frame" x="0.0" y="262" width="303" height="232"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7H-km-xTl">
-                                                <rect key="frame" x="0.0" y="0.0" width="42" height="54.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KHw-W7-srS">
-                                                <rect key="frame" x="0.0" y="64.5" width="42" height="54"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MG9-LG-NUK">
-                                                <rect key="frame" x="0.0" y="128.5" width="42" height="54.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMe-gE-ZTR">
-                                                <rect key="frame" x="0.0" y="193" width="42" height="54"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tmo-V3-5LT">
+                                                <rect key="frame" x="0.0" y="0.0" width="303" height="50.5"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xbt-wD-2gZ">
+                                                <rect key="frame" x="0.0" y="60.5" width="303" height="50.5"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0lg-7t-TLS">
+                                                <rect key="frame" x="0.0" y="121" width="303" height="50.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="alternativeButtonAction:" destination="E9k-Oj-qt9" eventType="touchUpInside" id="49c-BQ-cu3"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OcM-lZ-Yhb">
+                                                <rect key="frame" x="0.0" y="181.5" width="303" height="50.5"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="X8d-Dy-e0c" secondAttribute="trailing" id="7l5-ST-DUe"/>
+                                    <constraint firstItem="X8d-Dy-e0c" firstAttribute="leading" secondItem="R29-Z2-oDc" secondAttribute="leading" id="BZW-vK-zIX"/>
+                                    <constraint firstAttribute="trailing" secondItem="IxE-xp-d1c" secondAttribute="trailing" id="Bz4-r8-f4F"/>
+                                    <constraint firstItem="IxE-xp-d1c" firstAttribute="leading" secondItem="R29-Z2-oDc" secondAttribute="leading" id="EFt-tH-wRP"/>
+                                    <constraint firstItem="X8d-Dy-e0c" firstAttribute="top" secondItem="R29-Z2-oDc" secondAttribute="top" id="EsM-hj-Vpe"/>
+                                    <constraint firstItem="IxE-xp-d1c" firstAttribute="top" secondItem="X8d-Dy-e0c" secondAttribute="bottom" constant="30" id="njH-BX-mHL"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -212,10 +214,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="firstAlternativeLabel" destination="x7H-km-xTl" id="NQe-qD-Y7h"/>
-                        <outlet property="fourthAlternativeLabel" destination="gMe-gE-ZTR" id="tLO-Uh-ZzG"/>
                         <outlet property="questionTextView" destination="X8d-Dy-e0c" id="902-ZU-QfS"/>
-                        <outlet property="secondAlternativeLabel" destination="KHw-W7-srS" id="bFv-Hz-B7e"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MyC-pP-K3r" userLabel="First Responder" sceneMemberID="firstResponder"/>

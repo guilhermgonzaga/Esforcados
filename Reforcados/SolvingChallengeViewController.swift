@@ -11,30 +11,44 @@ import UIKit
 class SolvingChallengeViewController: UIViewController {
 
     var challenge: Challenge?
-    
+    var currentQuestionIndex = 0
+    var correctAnswerIndex: UInt32?
+    var currentQuestion: Question {
+        return (challenge?.questions[currentQuestionIndex])!
+    }
+
     @IBOutlet weak var questionTextView: UITextView!
-    
-    @IBOutlet weak var firstAlternativeLabel: UILabel!
-    
-    
-    @IBOutlet weak var secondAlternativeLabel: UILabel!
-    
-    
-    @IBOutlet weak var thirdAlternativeLabel: UILabel!
-    
-    @IBOutlet weak var fourthAlternativeLabel: UILabel!
-    
-    
+
+    @IBAction func alternativeButtonAction(_ sender: Any) {
+
+        if ((sender as AnyObject).tag == Int(correctAnswerIndex!)) {
+            // acertou
+        } else {
+            // errou
+        }
+
+        if (currentQuestionIndex != challenge?.questions.count) {
+            displayNextQuestion()
+        }
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view
-        
-        
-            
-    //questionTextView.text = challenge.questions[]
-    
-        
+        title = challenge?.name
+    }
+
+    //Function that displays new question
+    func displayNextQuestion() {
+        questionTextView.text = currentQuestion.question
+
+        var button = UIButton()
+
+        for i in 0...3 {
+            button = view.viewWithTag(i+1) as! UIButton
+            button.setTitle(currentQuestion.alternatives[i], for: .normal)
+        }
+        currentQuestionIndex += 1
     }
 
     override func didReceiveMemoryWarning() {

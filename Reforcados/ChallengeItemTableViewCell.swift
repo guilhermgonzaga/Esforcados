@@ -21,8 +21,7 @@ class ChallengeItemTableViewCell: UITableViewCell {
 //        // Configure the view for the selected state
 //    }
     
-   
-    @IBOutlet weak var challengeLabel: UILabel!
+    @IBOutlet weak var challengeNameLabel: UILabel!
     
     @IBOutlet weak var descriptionLabel: UILabel!
 

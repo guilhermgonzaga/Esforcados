@@ -9,7 +9,7 @@
 import Foundation
 
 class ChallengeDAO {
-    
+
     static func getList() -> [Challenge] {
         let alternatives = ["11", "12", "13", "14"]
         let questions = [Question(question: "idade do guilherme", alternatives: alternatives,answerIndex: 3)]

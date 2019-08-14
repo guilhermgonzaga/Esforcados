@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Reforcados/ChallengeListTableViewController.swift"
-            timestampString = "587413243.527905"
+            timestampString = "587503015.6375999"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -63,7 +63,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "53"
             endingLineNumber = "53"
-            landmarkName = "displayCurrentQuestion()"
+            landmarkName = "displayNextQuestion()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

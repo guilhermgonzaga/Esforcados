@@ -13,6 +13,8 @@ class ClassTeacherTableViewCell: UITableViewCell {
     
     @IBOutlet weak var classImageImageView: UIImageView!
     
+    
     @IBOutlet weak var classNameLabel: UILabel!
+    
     
 }

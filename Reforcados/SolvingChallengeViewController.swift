@@ -11,24 +11,30 @@ import UIKit
 class SolvingChallengeViewController: UIViewController {
 
     var challenge: Challenge?
-    var currentQuestionIndex = 0
-    var correctAnswerIndex: UInt32?
-    var currentQuestion: Question {
-        return (challenge?.questions[currentQuestionIndex])!
+    var correctAnswers = 0
+    var nextQuestionIndex = 0
+
+    var currentQuestion: Question? {
+        return challenge?.questions[nextQuestionIndex]
     }
+
 
     @IBOutlet weak var questionTextView: UITextView!
 
+
     @IBAction func alternativeButtonAction(_ sender: Any) {
 
-        if ((sender as AnyObject).tag == Int(correctAnswerIndex!)) {
-            // acertou
-        } else {
-            // errou
+        if (currentQuestion?.answerIndex)! + 1 == (sender as AnyObject).tag {
+            correctAnswers += 1
         }
 
-        if (currentQuestionIndex != challenge?.questions.count) {
+        if nextQuestionIndex < (challenge?.questions.count)! {
             displayNextQuestion()
+        } else {
+            // pular para a tela de fim
+            let secondViewController = self.storyboard?.instantiateViewController(withIdentifier: "challengeListTableViewController") as! ChallengeListTableViewController
+
+            self.navigationController?.pushViewController(secondViewController, animated: true)
         }
     }
 
@@ -36,26 +42,30 @@ class SolvingChallengeViewController: UIViewController {
         super.viewDidLoad()
 
         title = challenge?.name
+
+        displayNextQuestion()
     }
 
-    //Function that displays new question
     func displayNextQuestion() {
-        questionTextView.text = currentQuestion.question
+        questionTextView.text = currentQuestion?.question
 
         var button = UIButton()
 
         for i in 0...3 {
             button = view.viewWithTag(i+1) as! UIButton
-            button.setTitle(currentQuestion.alternatives[i], for: .normal)
+            button.setTitle(currentQuestion?.alternatives[i], for: .normal)
         }
-        currentQuestionIndex += 1
+
+        if nextQuestionIndex < (challenge?.questions.count)! - 1 {
+            nextQuestionIndex += 1
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
+//    override func didReceiveMemoryWarning() {
+//        super.didReceiveMemoryWarning()
+//        // Dispose of any resources that can be recreated.
+//    }
+
 
     /*
     // MARK: - Navigation

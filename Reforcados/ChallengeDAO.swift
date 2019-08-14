@@ -11,10 +11,13 @@ import Foundation
 class ChallengeDAO {
 
     static func getList() -> [Challenge] {
-        let alternatives = ["11", "12", "13", "14"]
-        let questions = [Question(question: "idade do guilherme", alternatives: alternatives,answerIndex: 3)]
+        let alternatives = ["17", "12", "21", "14"]
+        let questions = [
+            Question(question: "idade do Paulo", alternatives: alternatives, answerIndex: 2),
+            Question(question: "idade do Guilherme", alternatives: alternatives, answerIndex: 3)
+        ]
         return [
-            Challenge(name: "Atividade Um", dueDate: Date(timeIntervalSinceNow: 1002.54) , description: "Atividade para teste", questions: questions)
+            Challenge(name: "Atividade de idades", dueDate: Date(timeIntervalSinceNow: 1000.0), description: "Atividade para adivinhar a idade", questions: questions)
         ]
     }
 }

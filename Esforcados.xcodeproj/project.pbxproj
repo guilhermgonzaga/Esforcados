@@ -19,6 +19,12 @@
 		3F6E532C22FDE57300B01E9B /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E532B22FDE57300B01E9B /* Challenge.swift */; };
 		3FB7C7322305CE0E00E97908 /* AddChallengeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7C7312305CE0E00E97908 /* AddChallengeTableViewController.swift */; };
 		3FB7C7342305CEAB00E97908 /* AddChallengeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7C7332305CEAB00E97908 /* AddChallengeTableViewCell.swift */; };
+		3FB7C7362305DFA600E97908 /* Student_Reading-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7C7352305DFA600E97908 /* Student_Reading-512.png */; };
+		3FB7C7382305DFF900E97908 /* icons8-teacher-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7C7372305DFF900E97908 /* icons8-teacher-48.png */; };
+		3FB7C73A2305E04400E97908 /* icons8-teacher-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7C7392305E04400E97908 /* icons8-teacher-24.png */; };
+		3FB7C73C2305E0AB00E97908 /* icons8-student-male-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7C73B2305E0AB00E97908 /* icons8-student-male-40.png */; };
+		3FB7C73E2305E0D000E97908 /* icons8-student-male-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7C73D2305E0D000E97908 /* icons8-student-male-32.png */; };
+		3FB7C7402305E16E00E97908 /* AddChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7C73F2305E16E00E97908 /* AddChallengeViewController.swift */; };
 		3FBFC3EE22FDE88200CBDCEF /* ChallengeListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFC3ED22FDE88200CBDCEF /* ChallengeListTableViewController.swift */; };
 		3FBFC3F022FDE8BE00CBDCEF /* ChallengeItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFC3EF22FDE8BE00CBDCEF /* ChallengeItemTableViewCell.swift */; };
 		3FBFC3F222FDEBBF00CBDCEF /* SolvingChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFC3F122FDEBBF00CBDCEF /* SolvingChallengeViewController.swift */; };
@@ -41,6 +47,12 @@
 		3F6E532B22FDE57300B01E9B /* Challenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
 		3FB7C7312305CE0E00E97908 /* AddChallengeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddChallengeTableViewController.swift; sourceTree = "<group>"; };
 		3FB7C7332305CEAB00E97908 /* AddChallengeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddChallengeTableViewCell.swift; sourceTree = "<group>"; };
+		3FB7C7352305DFA600E97908 /* Student_Reading-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Student_Reading-512.png"; sourceTree = "<group>"; };
+		3FB7C7372305DFF900E97908 /* icons8-teacher-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-teacher-48.png"; sourceTree = "<group>"; };
+		3FB7C7392305E04400E97908 /* icons8-teacher-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-teacher-24.png"; sourceTree = "<group>"; };
+		3FB7C73B2305E0AB00E97908 /* icons8-student-male-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-student-male-40.png"; sourceTree = "<group>"; };
+		3FB7C73D2305E0D000E97908 /* icons8-student-male-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-student-male-32.png"; sourceTree = "<group>"; };
+		3FB7C73F2305E16E00E97908 /* AddChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddChallengeViewController.swift; sourceTree = "<group>"; };
 		3FBFC3ED22FDE88200CBDCEF /* ChallengeListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeListTableViewController.swift; sourceTree = "<group>"; };
 		3FBFC3EF22FDE8BE00CBDCEF /* ChallengeItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeItemTableViewCell.swift; sourceTree = "<group>"; };
 		3FBFC3F122FDEBBF00CBDCEF /* SolvingChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolvingChallengeViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +95,11 @@
 				3F6E532822FDE53500B01E9B /* View */,
 				3F6E531622FDE4AF00B01E9B /* AppDelegate.swift */,
 				3F6E531D22FDE4AF00B01E9B /* Assets.xcassets */,
+				3FB7C73D2305E0D000E97908 /* icons8-student-male-32.png */,
+				3FB7C73B2305E0AB00E97908 /* icons8-student-male-40.png */,
+				3FB7C7392305E04400E97908 /* icons8-teacher-24.png */,
+				3FB7C7352305DFA600E97908 /* Student_Reading-512.png */,
+				3FB7C7372305DFF900E97908 /* icons8-teacher-48.png */,
 				3F6E532222FDE4AF00B01E9B /* Info.plist */,
 			);
 			name = Esforcados;
@@ -109,6 +126,7 @@
 				3FBFC3F122FDEBBF00CBDCEF /* SolvingChallengeViewController.swift */,
 				3FB7C7312305CE0E00E97908 /* AddChallengeTableViewController.swift */,
 				3FB7C7332305CEAB00E97908 /* AddChallengeTableViewCell.swift */,
+				3FB7C73F2305E16E00E97908 /* AddChallengeViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -187,7 +205,12 @@
 			files = (
 				3F6E532122FDE4AF00B01E9B /* LaunchScreen.storyboard in Resources */,
 				3F6E531E22FDE4AF00B01E9B /* Assets.xcassets in Resources */,
+				3FB7C73C2305E0AB00E97908 /* icons8-student-male-40.png in Resources */,
+				3FB7C73E2305E0D000E97908 /* icons8-student-male-32.png in Resources */,
 				3F6E531C22FDE4AF00B01E9B /* Main.storyboard in Resources */,
+				3FB7C7382305DFF900E97908 /* icons8-teacher-48.png in Resources */,
+				3FB7C73A2305E04400E97908 /* icons8-teacher-24.png in Resources */,
+				3FB7C7362305DFA600E97908 /* Student_Reading-512.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +233,7 @@
 				3F6E531722FDE4AF00B01E9B /* AppDelegate.swift in Sources */,
 				3FBFC3EE22FDE88200CBDCEF /* ChallengeListTableViewController.swift in Sources */,
 				3FBFC3F022FDE8BE00CBDCEF /* ChallengeItemTableViewCell.swift in Sources */,
+				3FB7C7402305E16E00E97908 /* AddChallengeViewController.swift in Sources */,
 				3F176F8B2304984D00C312CF /* ClassTeacherTableViewCell.swift in Sources */,
 				3FB7C7322305CE0E00E97908 /* AddChallengeTableViewController.swift in Sources */,
 			);

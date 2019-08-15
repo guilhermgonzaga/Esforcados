@@ -175,7 +175,7 @@
 				TargetAttributes = {
 					3F6E531222FDE4AF00B01E9B = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = VDYN7TCXDS;
+						DevelopmentTeam = 8A43KL7896;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -361,7 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = VDYN7TCXDS;
+				DEVELOPMENT_TEAM = 8A43KL7896;
 				INFOPLIST_FILE = Reforcados/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruckLG.Reforcados;
@@ -376,7 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = VDYN7TCXDS;
+				DEVELOPMENT_TEAM = 8A43KL7896;
 				INFOPLIST_FILE = Reforcados/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruckLG.Reforcados;

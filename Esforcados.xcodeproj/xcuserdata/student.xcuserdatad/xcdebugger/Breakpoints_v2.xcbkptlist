@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Reforcados/ChallengeDAO.swift"
-            timestampString = "587499279.992811"
+            timestampString = "587595416.527586"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
             landmarkName = "getList()"
             landmarkType = "7">
          </BreakpointContent>

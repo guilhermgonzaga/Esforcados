@@ -19,7 +19,7 @@ class Question {
         self.alternatives = alternatives
         self.answerIndex = answerIndex
     }
-    
+
     func isCorrect(index: Int) -> Bool {
         
         return index == answerIndex

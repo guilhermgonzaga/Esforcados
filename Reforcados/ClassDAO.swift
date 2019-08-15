@@ -12,7 +12,8 @@ class ClassDAO {
     
     static func getList() -> [Class] {
         return [
-            Class(name: "Turma de matemática", image: "matematica")
+            Class(name: "Turma de matemática", image: "matematica"),
+            Class(name: "Turma de música", image: "music")
         ]
     }
 }

@@ -21,6 +21,7 @@ class AddChallengeTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    
     @IBOutlet weak var challengeNameLabel: UILabel!
     
     @IBOutlet weak var descriptionLabel: UILabel!
@@ -28,5 +29,6 @@ class AddChallengeTableViewCell: UITableViewCell {
     @IBOutlet weak var dueDateLabel: UILabel!
     
     @IBOutlet weak var addChallengeButton: UIButton!
+ 
     
 }

@@ -278,14 +278,10 @@
                                 <connections>
                                     <outlet property="classImageImageView" destination="rrV-Pc-KV6" id="0Yd-R0-tWy"/>
                                     <outlet property="classNameLabel" destination="GPZ-Sb-Zwu" id="sRs-U9-bQm"/>
-                                    <segue destination="46m-kI-1Rq" kind="show" id="BDT-IY-AaR"/>
+                                    <segue destination="Crt-cM-xdG" kind="show" identifier="challengeTeacherCell" id="ujW-2j-Q47"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="Jp6-YI-Fij" id="Tam-FY-V3i"/>
-                            <outlet property="delegate" destination="Jp6-YI-Fij" id="eSb-aU-4Qg"/>
-                        </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="wPl-Rw-AwQ"/>
                 </tableViewController>
@@ -293,33 +289,100 @@
             </objects>
             <point key="canvasLocation" x="1644" y="425.93703148425789"/>
         </scene>
-        <!--Table View Controller-->
-        <scene sceneID="h8L-mg-3FF">
+        <!--Add Challenge Table View Controller-->
+        <scene sceneID="t31-b0-vdh">
             <objects>
-                <tableViewController id="46m-kI-1Rq" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="110" sectionHeaderHeight="28" sectionFooterHeight="28" id="kKi-7H-Glg">
+                <tableViewController id="Crt-cM-xdG" customClass="AddChallengeTableViewController" customModule="Esforcados" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="110" sectionHeaderHeight="28" sectionFooterHeight="28" id="v97-Wp-2cH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="110" id="wyE-ue-9QW">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="classTeacherCell" rowHeight="110" id="52H-bN-1ct" customClass="AddChallengeTableViewCell" customModule="Esforcados" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="110"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wyE-ue-9QW" id="l7g-YX-vgV">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="109.5"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="52H-bN-1ct" id="C7P-el-0Ly">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="KtS-C7-o8k">
+                                            <rect key="frame" x="21" y="18" width="364" height="80"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="EOc-6h-HJ9">
+                                                    <rect key="frame" x="0.0" y="0.0" width="132" height="80"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDK-tq-waE">
+                                                            <rect key="frame" x="0.0" y="0.0" width="132" height="30"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YSe-4x-gIS">
+                                                            <rect key="frame" x="0.0" y="50" width="132" height="30"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="zEs-P4-Voe">
+                                                    <rect key="frame" x="232" y="0.0" width="132" height="80"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="moO-y0-UXn">
+                                                            <rect key="frame" x="0.0" y="0.0" width="132" height="30"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLI-wj-9qq">
+                                                            <rect key="frame" x="0.0" y="50" width="132" height="30"/>
+                                                            <state key="normal" title="Adicionar Atividade"/>
+                                                            <connections>
+                                                                <segue destination="87F-WF-N26" kind="show" id="SPX-jw-pvy"/>
+                                                            </connections>
+                                                        </button>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="addChallengeButton" destination="XLI-wj-9qq" id="cDw-9H-S2R"/>
+                                    <outlet property="challengeNameLabel" destination="cDK-tq-waE" id="hIo-DM-sus"/>
+                                    <outlet property="descriptionLabel" destination="YSe-4x-gIS" id="jdU-fR-8Ye"/>
+                                    <outlet property="dueDateLabel" destination="moO-y0-UXn" id="1fW-nw-MLB"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="46m-kI-1Rq" id="pYM-2v-5f5"/>
-                            <outlet property="delegate" destination="46m-kI-1Rq" id="thr-aa-1jG"/>
+                            <outlet property="dataSource" destination="Crt-cM-xdG" id="HUo-Bp-7U4"/>
+                            <outlet property="delegate" destination="Crt-cM-xdG" id="e65-Gi-qvN"/>
                         </connections>
                     </tableView>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vUr-9r-f8i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q6c-g3-CYU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2376.8000000000002" y="425.93703148425789"/>
+        </scene>
+        <!--Adicionar Atividade-->
+        <scene sceneID="kDM-VN-B55">
+            <objects>
+                <viewController title="Adicionar Atividade" id="87F-WF-N26" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ax9-0A-xw8"/>
+                        <viewControllerLayoutGuide type="bottom" id="NBq-eA-1vq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BPM-Ar-h0c">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eMQ-7r-6rE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3102" y="426"/>
         </scene>
     </scenes>
 </document>

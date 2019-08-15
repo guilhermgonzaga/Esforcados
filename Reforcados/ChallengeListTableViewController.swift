@@ -11,6 +11,8 @@ import UIKit
 class ChallengeListTableViewController: UITableViewController {
 
     var challengeList = [Challenge]()
+
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

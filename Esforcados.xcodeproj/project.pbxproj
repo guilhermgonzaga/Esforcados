@@ -17,6 +17,8 @@
 		3F6E531E22FDE4AF00B01E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E531D22FDE4AF00B01E9B /* Assets.xcassets */; };
 		3F6E532122FDE4AF00B01E9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E531F22FDE4AF00B01E9B /* LaunchScreen.storyboard */; };
 		3F6E532C22FDE57300B01E9B /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E532B22FDE57300B01E9B /* Challenge.swift */; };
+		3FB7C7322305CE0E00E97908 /* AddChallengeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7C7312305CE0E00E97908 /* AddChallengeTableViewController.swift */; };
+		3FB7C7342305CEAB00E97908 /* AddChallengeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7C7332305CEAB00E97908 /* AddChallengeTableViewCell.swift */; };
 		3FBFC3EE22FDE88200CBDCEF /* ChallengeListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFC3ED22FDE88200CBDCEF /* ChallengeListTableViewController.swift */; };
 		3FBFC3F022FDE8BE00CBDCEF /* ChallengeItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFC3EF22FDE8BE00CBDCEF /* ChallengeItemTableViewCell.swift */; };
 		3FBFC3F222FDEBBF00CBDCEF /* SolvingChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFC3F122FDEBBF00CBDCEF /* SolvingChallengeViewController.swift */; };
@@ -37,6 +39,8 @@
 		3F6E532022FDE4AF00B01E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F6E532222FDE4AF00B01E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F6E532B22FDE57300B01E9B /* Challenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		3FB7C7312305CE0E00E97908 /* AddChallengeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddChallengeTableViewController.swift; sourceTree = "<group>"; };
+		3FB7C7332305CEAB00E97908 /* AddChallengeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddChallengeTableViewCell.swift; sourceTree = "<group>"; };
 		3FBFC3ED22FDE88200CBDCEF /* ChallengeListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeListTableViewController.swift; sourceTree = "<group>"; };
 		3FBFC3EF22FDE8BE00CBDCEF /* ChallengeItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeItemTableViewCell.swift; sourceTree = "<group>"; };
 		3FBFC3F122FDEBBF00CBDCEF /* SolvingChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolvingChallengeViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				3FBFC3ED22FDE88200CBDCEF /* ChallengeListTableViewController.swift */,
 				3FBFC3EF22FDE8BE00CBDCEF /* ChallengeItemTableViewCell.swift */,
 				3FBFC3F122FDEBBF00CBDCEF /* SolvingChallengeViewController.swift */,
+				3FB7C7312305CE0E00E97908 /* AddChallengeTableViewController.swift */,
+				3FB7C7332305CEAB00E97908 /* AddChallengeTableViewCell.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -195,6 +201,7 @@
 				3F176F892304981A00C312CF /* ClassTeacherTableViewController.swift in Sources */,
 				3F6E531922FDE4AF00B01E9B /* ViewController.swift in Sources */,
 				3F176F87230497C100C312CF /* ClassDAO.swift in Sources */,
+				3FB7C7342305CEAB00E97908 /* AddChallengeTableViewCell.swift in Sources */,
 				3FBFC3F822FDF1E000CBDCEF /* Question.swift in Sources */,
 				3FBFC3F622FDEF2500CBDCEF /* ChallengeDAO.swift in Sources */,
 				3F176F85230497A200C312CF /* Class.swift in Sources */,
@@ -204,6 +211,7 @@
 				3FBFC3EE22FDE88200CBDCEF /* ChallengeListTableViewController.swift in Sources */,
 				3FBFC3F022FDE8BE00CBDCEF /* ChallengeItemTableViewCell.swift in Sources */,
 				3F176F8B2304984D00C312CF /* ClassTeacherTableViewCell.swift in Sources */,
+				3FB7C7322305CE0E00E97908 /* AddChallengeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
